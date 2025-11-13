@@ -5,9 +5,12 @@ padding: 0%;
 margin: 0%;
 }
 
-#banner{
+.banner{
 height: 450px;
-width: 750px;
+width: 850px;
+background-image: url("./assents/banner\ \(2\).png"); /*ele adiciona uma imagem como fundo*/
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 li a{
@@ -15,19 +18,32 @@ li a{
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
-    padding: 20px;
+    padding: 25px;
  }
 
 ul{
-    display: flex; /*ativa a propriedade de alinhamento*/
-    flex-direction: row; /*coloca os elementos na horizontal*/
+    display: flex; /ativa a propriedade de alinhamento/
+    flex-direction: row; /coloca os elementos na horizontal/
 }
 
 li{
 list-style: none; /*remove os pontos das lista*/
 }
 
+nav{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
  #logo{
 height: 100px;
 width: 100px;
+ }
+
+ .bi{
+font-size: 40px;
+color: #4c544c;
+
  }
