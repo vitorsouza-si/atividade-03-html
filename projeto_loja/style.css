@@ -263,3 +263,11 @@ background-color: yellow;
    display: flex;
   justify-content: end;
 }
+
+.xbox-caixa{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 120px;
+}
